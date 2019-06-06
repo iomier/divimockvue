@@ -10,6 +10,7 @@
       <TextBox/>
       <Cards/>
       <Testimony/>
+      <Contact/>
     </div>
   </div>
 </template>
@@ -22,6 +23,7 @@ import Hero from "@/components/Hero";
 import TextBox from "@/components/TextBox";
 import Cards from "@/components/Cards";
 import Testimony from "@/components/Testimony";
+import Contact from "@/components/Contact";
 export default {
   name: "home",
   components: {
@@ -30,7 +32,8 @@ export default {
     Hero,
     TextBox,
     Cards,
-    Testimony
+    Testimony,
+    Contact
   }
 };
 </script>

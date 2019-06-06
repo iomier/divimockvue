@@ -21,7 +21,7 @@ export default {
 .tile
   box-shadow: 0px 10px 80px -10px rgba(44, 54, 92, 0.2)
   padding: 15px
-  height: 180px
+  min-height: 180px
   border-radius: 15px
   background-color: #fff
   display: flex
